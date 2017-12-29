@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Room Finder Nepal</string>
+    <string name="register">Signup</string>
+    <string name="cancel">cancel</string>
+    <string name="drawer_close">close</string>
+    <string name="drawer_open" >open</string>
+    <string name="login">login</string>
+</resources>

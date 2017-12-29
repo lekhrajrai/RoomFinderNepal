@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/logo1"
+            android:layout_marginTop="30dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:textColor="@color/colorGreen"
+            android:text="Login Here"
+            android:textAlignment="center"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="someone@gmail.com"
+            android:inputType="textEmailAddress"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:id="@+id/login_email"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:inputType="textPassword"
+            android:id="@+id/login_password"/>
+        <Button
+            android:layout_marginTop="20dp"
+            android:layout_width="199dp"
+            android:layout_height="wrap_content"
+            android:text="signin"
+            android:textSize="23dp"
+            android:textColor="@color/colorWhite"
+            android:background="@color/colorRandom"
+            android:id="@+id/login_btnSignin"
+            android:layout_gravity="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="Forget password? click here"
+            android:id="@+id/login_forgetPassword"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Not a user?"
+            android:textAlignment="center" />
+        <Button
+            android:layout_width="199dp"
+            android:layout_height="wrap_content"
+            android:text="@string/register"
+            android:textColor="@color/colorWhite"
+            android:background="@color/colorRandom"
+            android:textSize="23dp"
+            android:id="@+id/login_btnSignp"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+</ScrollView>

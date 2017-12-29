@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:layout_marginTop="30dp"
+            android:textColor="@color/colorGreen"
+            android:text="Room Shift Service Provider"
+            android:textAlignment="center"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:id="@+id/ss_name"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Address"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:id="@+id/ss_address"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="98xxxxxxxx"
+            android:textAlignment="center"
+            android:inputType="phone"
+            android:textSize="20sp"
+            android:id="@+id/ss_phone"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="companyname@gmail.com"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:inputType="textEmailAddress"
+            android:id="@+id/ss_email"/>
+
+        <Button
+            android:layout_marginTop="20dp"
+            android:layout_width="199dp"
+            android:layout_height="wrap_content"
+            android:text="Add Now"
+            android:textSize="23dp"
+            android:textColor="@color/colorWhite"
+            android:background="@color/colorGreen"
+            android:id="@+id/ss_register"
+            android:layout_gravity="center"/>
+        <Button
+            android:layout_marginTop="20dp"
+            android:layout_width="199dp"
+            android:layout_height="wrap_content"
+            android:text="@string/cancel"
+            android:textSize="23dp"
+            android:textColor="@color/colorWhite"
+            android:background="@color/colorGreen"
+            android:id="@+id/ss_cancel"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+</ScrollView>

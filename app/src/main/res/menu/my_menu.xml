@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Home"
+        android:id="@+id/menu_home"
+        android:icon="@drawable/ic_home_black_24dp"></item>
+    <item android:title="Add New Post"
+        android:id="@+id/menu_newPost"
+        android:icon="@drawable/ic_add_circle_black_24dp"></item>
+    <item android:title="Search"
+        android:id="@+id/menu_search"
+        android:icon="@drawable/ic_search_black_24dp"></item>
+    <item android:title="Room Shift Service"
+        android:id="@+id/menu_movers"
+        android:icon="@drawable/ic_airline_seat_recline_extra_black_24dp"></item>
+    <item android:title="Contact Us"
+        android:id="@+id/menu_contact"
+        android:icon="@drawable/ic_call_black_24dp"></item>
+    <item android:title="Feedback"
+        android:id="@+id/menu_feedback"
+        android:icon="@drawable/ic_feedback_black_24dp"></item>
+    <item android:title="Sign Out"
+        android:id="@+id/menu_signOut"
+        android:icon="@drawable/ic_backspace_black_24dp"></item>
+</menu>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "977007789561",
+    "firebase_url": "https://room-finder-nepal.firebaseio.com",
+    "project_id": "room-finder-nepal",
+    "storage_bucket": "room-finder-nepal.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:977007789561:android:7c397bad6ec61dde",
+        "android_client_info": {
+          "package_name": "com.example.lekhraj.roomfindernepal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "977007789561-e6olpgmv8vh1ju69q3cf99p3up69usrj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4sBkgQQLpHaXhDWCnyGMUE3Ybu6-_MW0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
